@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* font-family: 'Modak', cursive; */
+    font-family: 'Stalinist One', cursive;
+    font-size: 1.8rem;
+    color: white;
+}
+
+
+/****************************************************************HEADER NAVIGATION********************************************/
+header{
+    height: 100vh;
+    background-image: url(../images/pexels-negative-space-169573.jpg);
+    background-size: cover;
+    
+}
+
+.header{
+    height: 10rem;
+    position:relative;
+}
+
+.header__brand {
+    /* background-color: red; */
+    padding: 3rem;
+    display: inline-block;
+    width:30%;
+    text-align: center;
+}
+
+.header__nav{
+    background-color: rgba(0,0,0,0.562);
+    position: fixed;
+    top:2%;
+    left: 60%;
+}
+
+.header__items{
+    float: left;
+    list-style-type:none;
+    padding: 2rem;
+}
+
+.header__links{
+    text-decoration: none;
+    color: white;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+/****************************************************************HEADER NAVIGATION********************************************/
