@@ -19,7 +19,9 @@ body{
 /****************************************************************HEADER NAVIGATION********************************************/
 header{
     height: 100vh;
-    background-image: url(../images/pexels-negative-space-169573.jpg);
+    background-image: linear-gradient(to right bottom, rgba(14,4,4,0.24)
+    ,rgba(14,4,2,0.849))
+    ,url(../images/pexels-negative-space-169573.jpg);
     background-size: cover;
     
 }
@@ -62,4 +64,26 @@ header{
 
 
 
-/****************************************************************HEADER NAVIGATION********************************************/
+/****************************************************************HEADER HEADING TEXT********************************************/
+.header__heading{
+    /* background-color: red; */
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.header__heading--primary{
+    font-size: 5rem;
+    line-height: 0.6;
+}
+
+.header__heading--sub{
+    padding: 0;
+    font-size: 2rem;
+    line-height: 1rem;
+}
