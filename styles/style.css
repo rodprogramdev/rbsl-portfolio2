@@ -26,7 +26,7 @@ header{
     
 }
 
-.header{
+.header__navigation{
     height: 10rem;
     position:relative;
 }
@@ -131,4 +131,22 @@ header{
     width: 100%;
     border-radius: 50%;
     border: .5rem solid black;
+}
+
+/****************************************************************FOOTER SECTION********************************************/
+.footer{
+    padding-top:2%;
+    padding-left:5%;
+    height: 25vh;
+    background-color: black;
+    color:white;
+}
+
+
+.footer__items{
+    list-style-type:none;
+}
+
+p{
+    text-align: center;
 }

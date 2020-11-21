@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <div class="header">
+        <div class="header__navigation" id="header">
             <!--HEADER BRAND OR LOGO-->
             <div class="header__brand">
                 <p>RODPROGRAMDEV</p>
@@ -23,9 +23,9 @@
             <div class="header__nav">
                 <nav>
                     <ul class="header__list">
-                        <li class="header__items"><a class="header__links" href="#">Home</a></li>
-                        <li class="header__items"><a class="header__links" href="#">About Me</a></li>
-                        <li class="header__items"><a class="header__links" href="#">Contact</a></li>
+                        <li class="header__items"><a class="header__links" href="#header">Home</a></li>
+                        <li class="header__items"><a class="header__links" href="#about">About Me</a></li>
+                        <li class="header__items"><a class="header__links" href="#footer">Contact</a></li>
 
                     </ul>
                 </nav>
@@ -46,7 +46,7 @@
 
     <!--SECTION ABOUT-->
     <section>
-        <div class="about">
+        <div class="about" id="about">
             <h2 class="about__heading">ABOUT ME</h2>
             <div class="about__text">
                 <p> I am a computer scientist, a teacher and a lifetime learner. Fifteen years in the field of teaching.
@@ -60,6 +60,18 @@
                 <img src="images/rod-image.jpg" alt="Rodrigo's Profile Picture" class="about__image--pic">
             </div>
         </div>
+        <footer>
+            <div class="footer" id="footer">
+                <div class="footer__contact">
+                    <ul>
+                        <li class="footer__items">Email: rbsldevtechsolutions@gmail.com</li>
+                        <li class="footer__items">Discord: Sample#123</li>
+                        <li class="footer__items">Twitter: @sample2020</li>
+                    </ul>
+                </div>
+                <p>&#169;copyright Rodrigo Bonzerr S. Lopez</p>
+            </div>
+        </footer>
 
     </section>
 </body>
