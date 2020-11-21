@@ -87,3 +87,48 @@ header{
     font-size: 2rem;
     line-height: 1rem;
 }
+
+
+/****************************************************************ABOUT SECTION********************************************/
+
+.about{
+    height: 100vh;
+    color: black;
+    text-align: center;
+    padding-top:5%;
+}
+
+.about__heading{
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+
+.about__text{
+   /* background-color: red; */
+   float:left;
+   width: 65%;
+   
+}
+
+.about__text p {
+    text-align: left;
+    padding: 5%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.8rem;
+    
+}
+
+.about__image{
+    /* background-color: green; */
+    float:right;
+    height: 25rem;
+    width: 25rem;
+    margin-right: 15%;
+}
+
+.about__image--pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: .5rem solid black;
+}
